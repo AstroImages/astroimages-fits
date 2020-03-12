@@ -1,4 +1,4 @@
-name: Upload 'astroimages-fits' Package
+name: Publish 'astroimages-fits' Package
 
 on:
   release:
