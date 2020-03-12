@@ -1,6 +1,9 @@
 name: Publish 'astroimages-fits' Package
 
 on:
+  push:
+    branches:
+      - master  
   release:
     types: [created]
 
