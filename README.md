@@ -48,6 +48,9 @@ To upload
 ### Python Packaging
 - https://medium.com/@joel.barmettler/how-to-upload-your-python-package-to-pypi-65edc5fe9c56
 
+### Git actions CICD
+- https://packaging.python.org/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/
+
 License
 -------
 
