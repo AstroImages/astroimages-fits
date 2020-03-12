@@ -1,7 +1,8 @@
 AstroImages FITS Handling routines (astroimages-fits)
 =================================
 ![Publish 'astroimages-fits' Package](https://github.com/AstroImages/astroimages-fits/workflows/Publish%20'astroimages-fits'%20Package/badge.svg)
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
+[![PyPI version](https://badge.fury.io/py/astroimages-fits.svg)](https://badge.fury.io/py/astroimages-fits)
+![Version](https://img.shields.io/badge/version-0.2.2-blue.svg?cacheSeconds=2592000)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 
 
