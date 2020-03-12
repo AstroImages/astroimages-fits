@@ -30,6 +30,18 @@ To run unit tests:
     python -m unittest discover test/unit -v
 
 
+## Packaging
+
+To package
+    
+    python setup.py sdist
+
+To upload
+
+    pip3 install twine
+    twine upload dist/*
+
+
 ## References
 
 ### Python Packaging
