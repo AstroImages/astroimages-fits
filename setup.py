@@ -14,14 +14,14 @@ with open('LICENSE') as f:
 setuptools.setup(
     name='astroimages_fits',
     packages = ['astroimages_fits'],
-    version='0.1.1',
+    version='0.1.2',
     description='FITS files related routines and classes',
     # long_description=readme,
     # long_description_content_type="text/markdown",
     author='Rodrigo de Souza',
     author_email='rsouza01@gmail.com',
     url='https://github.com/AstroImages/astroimages-fits',
-    download_url = 'https://github.com/AstroImages/astroimages-fits/archive/v_01.tar.gz',
+    download_url = 'https://github.com/AstroImages/astroimages-fits/archive/v_0.1.2.tar.gz',
     license=license,
     install_requires=[
         'astropy',
