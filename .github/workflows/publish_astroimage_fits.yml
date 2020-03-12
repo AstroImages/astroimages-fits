@@ -2,7 +2,8 @@ name: Publish AstroImage-FITS Package
 
 on:
   release:
-    types: [created]
+    types: [created, edited]
+    
 
 jobs:
   deploy:
