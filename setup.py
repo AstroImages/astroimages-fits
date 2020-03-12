@@ -14,7 +14,7 @@ with open('LICENSE') as f:
 setuptools.setup(
     name='astroimages_fits',
     packages = ['astroimages_fits'],
-    version='0.1',
+    version='0.1.1',
     description='FITS files related routines and classes',
     # long_description=readme,
     # long_description_content_type="text/markdown",
