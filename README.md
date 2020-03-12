@@ -1,7 +1,6 @@
 AstroImages FITS Handling routines (astroimages-fits)
 =================================
-
-![Publish AstroImage-FITS Package](https://github.com/AstroImages/astroimages-fits/workflows/Publish%20AstroImage-FITS%20Package/badge.svg)
+![Publish 'astroimages-fits' Package](https://github.com/AstroImages/astroimages-fits/workflows/Publish%20'astroimages-fits'%20Package/badge.svg)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 
