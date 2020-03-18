@@ -1,10 +1,7 @@
-from astropy.io import fits
-
-
 import unittest
 
-import tempfile
 from astroimages_fits.fits_util_functions import extract_metadata_from_fits_file
+
 
 class TestUtilFunctions(unittest.TestCase):
 
@@ -16,6 +13,6 @@ class TestUtilFunctions(unittest.TestCase):
 
         self.assertEqual(1, 1, "Should be 1")
 
+
 if __name__ == '__main__':
     unittest.main()
-

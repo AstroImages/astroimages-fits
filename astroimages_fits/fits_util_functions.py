@@ -1,16 +1,17 @@
 from astropy.io import fits
-import random
 import os
+import hashlib
 
 
 def extract_metadata_from_fits_file(fits_file_path):
-    hdulist = fits.open(fits_file_path)
-    hdr = hdulist[0].header
-    randon_prop = random.randint(1, 101)
+
+    with fits.open(fits_file_path) as hdulist:
+        hdr = hdulist[0].header
+
     return {
-        'id': randon_prop,
+        'id': hashlib.md5(str.encode(fits_file_path)).hexdigest(),
         'title': os.path.basename(fits_file_path),
-        'description': randon_prop,
+        'description': fits_file_path,
         'path': fits_file_path,
         'primaryHDU': {
             'SIMPLE': hdr['EXTEND'],
