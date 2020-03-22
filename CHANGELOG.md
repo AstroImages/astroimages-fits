@@ -17,3 +17,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Function extract_metadata_from_fits_file(fits_file_path) now defines the file id via the FULL PATH hash.
+
+## [0.2.4] - 2020-03-22
+
+### Changed
+- Fixed test functions
+- Added test utilities, like creating random fits files for unit testing.
