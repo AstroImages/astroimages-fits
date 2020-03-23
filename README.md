@@ -14,34 +14,41 @@ Usage
 
 Clone the repo:
 
-    git clone https://github.com/AstroImages/astroimages-fits/
-    cd astroimages-fits
+```console
+$ git clone https://github.com/AstroImages/astroimages-fits/
+$ cd astroimages-fits
+```
 
 Create virtualenv:
 
-    virtualenv -p python3 env
-    source env/bin/activate
-    pip3 install -r requirements.txt
-
+```console
+$ virtualenv -p python3 env
+$ source env/bin/activate
+(env) $ pip3 install -r requirements.txt
+```
 
 ## Testing
 
 To run unit tests:
 
-    python -m unittest discover test/unit -v
-
+```console
+(env) $ python -m unittest discover test/unit -v
+```
 
 ## Packaging
 
 To package
     
-    python setup.py sdist
+```console
+(env) $ python setup.py sdist
+```
 
 To upload
 
-    pip3 install twine
-    twine upload dist/*
-
+```console
+(env) $ pip3 install twine
+(env) $ twine upload dist/*
+```
 
 ## References
 
