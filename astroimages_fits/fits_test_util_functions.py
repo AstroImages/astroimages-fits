@@ -1,7 +1,6 @@
 import tempfile
 from astropy.io import fits
 import numpy as np
-import os
 
 
 def create_empty_fits_files_on_temp_folder(number_of_files, dir=None):
