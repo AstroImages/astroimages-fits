@@ -1,2 +1,2 @@
-astropy==4.0
+astropy==5.3.3
 numpy==1.18.1
